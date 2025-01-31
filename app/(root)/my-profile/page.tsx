@@ -1,13 +1,13 @@
-import { signOut } from "@/auth";
+// import { signOut } from "@/auth";
+// import { Button } from "@/components/ui/button";
 import BookList from "@/components/BookList";
-import { Button } from "@/components/ui/button";
 import { sampleBooks } from "@/constants";
 import React from "react";
 
 const Page = () => {
   return (
     <>
-      <form
+      {/* <form
         action={async () => {
           "use server";
 
@@ -16,7 +16,7 @@ const Page = () => {
         className="mb-10"
       >
         <Button>Logout</Button>
-      </form>
+      </form> */}
 
       <BookList title="Borrowed Books" books={sampleBooks} />
     </>
